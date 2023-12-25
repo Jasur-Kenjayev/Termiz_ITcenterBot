@@ -1,0 +1,7 @@
+from loader import dp
+from aiogram import types
+	
+@dp.message_handler(text="🗞 IT-Park haqida")
+async def select_ithaqida(message:
+	types.Message):
+	await message.answer("<b>IT-park bugungi kunda 2019-yil 24-iyulda Toshkentda Oʻzbekiston Respublikasidagi birinchi IT Park ochildi. Ushbu qisqa vaqt ichida IT Park 28 yangi startaplar koʻrinishidagi birinchi mevalarini berdi, axborot texnologiyalari sohasida oʻnlab loyihalarni yaratdi, shuningdek, yoshlarni ragʻbatlantirish, ushbu sohaga qiziqishi va aholida kompyuter savodxonligini rivojlantirish uchun treninglar, “vorkshop” va “mitap”lar yaratdi.\n\nIT Park – bu IT-kompaniyalar uchun istiqbolli boshlangʻich loyihalarni, tashqi iqtisodiy zonani, shu jumladan ilmiy va taʼlim tashkilotlari bilan integratsiyalashgan holda ishga tushirish va bozorga chiqarishni taʼminlash uchun moʻljallangan obyektlar, bino va inshootlar majmuasi. IT sohasida faol va iqtidorli insonlar buxgalteriya hisobi, yuridik, marketing va taʼlim orqali oʻz gʻoyalarini haqiqiy biznes loyihalariga aylantirish uchun haqiqiy imkoniyatga ega boʻladigan joy.\n\nSavol bormi?\n+998 71 209 11 99\ninfo@it-park.uz\nRezyume jo‘natish uchun : hr@it-park.uz\n4, Tepamasjid str., Tashkent, Uzbekistan, 100164\n\n🌐 https://it-park.uz/uz/itpark/about\n\n✅ @Termiz_ITcenterBot</b>")
